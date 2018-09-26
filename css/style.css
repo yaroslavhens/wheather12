@@ -1,6 +1,6 @@
 * {
-	font-family: cursive;
-
+	font-family: cursive; 
+	transition: all .2s ease-in;
 }
 h1 {
 	text-align: center;
@@ -8,16 +8,7 @@ h1 {
 	padding-top: 30px;
 	font-size: 2em;
 }
-
-}
-
-ul {
-	font-size: 10x;
-
-}
-
 .blabla {
-
 	text-align: unset;
 	width: 1200px;
 	height: 1500px;
@@ -34,8 +25,6 @@ ul {
 	margin-top: 30px;
 	width: 20%; 
 	height: 60px;
-	border: 2px solid;
-	border-color: white;
 	list-style: none;
 	padding: 10px;
 	color: white;
@@ -43,66 +32,75 @@ ul {
 }
 	
 .col6 {
+	border-right: 	 3px solid;
+	border-bottom: 3px solid;
 	width: 20%;
 	background-color: #76FF03;
 }
-
 .col1  {
+	border-top: 3px solid;
+	border-bottom: 3px solid;
 	width: 20%;
 	background-color: #00796B;
 }
 .medium1 {
-
+	border:3px solid ;
 	background-color: #CDDC39;
-	width: 42.1%;
+	width: 41.7%;
 }
-.medium { width: 42.1%;
+.medium { width: 41.7%;
+	border-right:  3px solid;
 	background-color: #FF8F00;
 
 }
  .long {
+ 	border: 3px solid;
  	background-color: #212121;
-	width: 86.2%;
+	width: 85.7%;
 }
 .col4 { 
+	width: 20%;
+	border-right:3px solid;
+	border-bottom: 3px solid;
 	background-color: #01579B;
 }
 .col5 {
+	border-right: 	 3px solid;
+	border-bottom: 3px solid;
 	background-color: #9E9E9E;
 }
 .col7 {
+	border-left:  3px solid;
+	border-right: 	 3px solid;
 	background-color: #455A64;
 }
 .col3 {
+	border-bottom: 3px solid;
+	border-right: 3px solid;
+	border-left: 3px solid;
 	background-color: #1A237E;
 }
 .col4 {
+	width: 19.8%;
 	background-color: #4A148C;
-
 }
 .col2 {
+	border:3px solid;
 	background-color: #AB47BC;
 }
-li.col2:hover {
-	background-color: red;
-}
 .col8 {
+	border-right:  3px solid;
 	background-color: #CDDC39;
 }
-li.col8:hover {
-	background-color: navy;
+.nameprod:hover > a  li {opacity: 0.6}
+.nameprod a li:hover {opacity: 1
 }
-
-ul:hover {
-	opacity: 0.7;
-}
-
-
-
 .foot {
 	font-size: 30px;
 	text-align: center;
 }
+
+
 
 
 	
